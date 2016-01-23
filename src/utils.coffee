@@ -60,7 +60,7 @@ utils.makeRestoreCommand = (connectionString, dirName) ->
   utils.log "Using #{actualDirName}"
   connectionParameters = utils.parseConnectionString connectionString
   commandOptions = makeCommandOptions connectionParameters
-  # commandOptions.drop = true
+  commandOptions.drop = true
   commandArguments = makeCommandArguments commandOptions, actualDirName
   argumentString = makeArgumentString commandArguments
   "mongorestore#{argumentString}"
