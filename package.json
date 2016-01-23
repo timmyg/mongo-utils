@@ -1,5 +1,5 @@
 {
-  "name": "mongo-utils",
+  "name": "mongo-utils-restore",
   "description": "Friendly interface to mongodump and mongorestore commands.",
   "keywords": [
     "mongodb",
